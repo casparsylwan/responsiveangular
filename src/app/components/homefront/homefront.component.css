@@ -45,7 +45,7 @@ button:active{
     margin-top: -4rem;
     padding: 1rem;
     z-index: 1;
-    border: solid black 1px;
+    
     background-color: #0099FF;
     display: flex;
     flex-direction: column;

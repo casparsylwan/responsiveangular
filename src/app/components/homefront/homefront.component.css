@@ -79,13 +79,7 @@ button:active{
 
 @media (max-width: 700px){
 
-    .bottomcontainer{
 
-        border: solid 1px black;
-        height: 30%;
-        overflow: hidden;
-
-    }
 
     #mediumbottom{
         display: none;
@@ -93,6 +87,9 @@ button:active{
 
     #smallbottom{
         display: initial;
+        position: absolute;
+        bottom: 0;
+        left: 0;
         width: 100%;
         
     }

@@ -85,14 +85,15 @@ button:active{
 
     #smallbottom{
         display: initial;
+        
     }
 
     .insparaion{
-        top:70%;      
+        top:75%;      
     }
     
     .order{
-        top: 80%;
+        top: 85%;
     }
 
 }

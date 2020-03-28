@@ -9,7 +9,7 @@ p{
     font-weight: bold;
 
     overflow: hidden;
-    white-space: wrap;
+    white-space: nowrap;
     border-right: solid black 4px;
 }
 
@@ -20,14 +20,17 @@ p{
     font-weight: bold;
 
     animation: type 6s steps(22);
+    animation-fill-mode: forwards;
     overflow: hidden;
-    white-space: wrap;
+    white-space: nowrap;
     border-right: solid black 4px;
 
 }
 
 .two{
     animation: type2 6s steps(27);
+    animation-fill-mode: forwards;
+
     
 }
 

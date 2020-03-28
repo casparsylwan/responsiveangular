@@ -42,6 +42,21 @@ button:active{
 }
 
 .btn{
+    margin-top: -1rem;
+    padding: 1rem;
+    z-index: 1;
+    border: solid black 1px;
+    background-color: #0099FF;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*
+.btn{
     position: absolute;
     bottom: 3%;
     left: 3%;
@@ -49,7 +64,7 @@ button:active{
     flex-direction: row;
 }
 
-/*
+
 .insparaion{
     
     position: absolute;
@@ -60,7 +75,8 @@ button:active{
 
 .order{
  
-    margin-left: 0.5rem;
+    margin: 0.5rem;
+    padding: auto;
 }
 
 
@@ -89,7 +105,13 @@ button:active{
 @media (max-width: 700px){
 
 
+    .bottomcontainer{
+        display: flex;
+        flex-direction: column;
+    }
 
+
+/*
     #mediumbottom{
         display: none;
     }
@@ -110,5 +132,5 @@ button:active{
     .order{
         top: 85%;
     }
-
+*/
 }

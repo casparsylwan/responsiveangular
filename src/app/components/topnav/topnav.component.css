@@ -1,17 +1,23 @@
 nav{
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 99%;
     height: 3rem;
     background-color: #000;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 .threelines{
+    /*
     position: absolute; 
     top: 2%;
     right: 10%;
     
      width: 10px;
+     */
  }
  
  .line{

@@ -9,7 +9,7 @@ import { bounceIn } from 'ng-animate';
 })
 export class KeytextComponent implements OnInit {
 
-  constructor() { }
+  constructor() { } 
 
   ngOnInit(): void {
   }

@@ -8,7 +8,24 @@ p{
     
 }
 
+
+@media (max-width: 900px){
+
+
+    .textcontainer{
+
+        margin-bottom: -7rem;
+        margin-top: 1rem;
+    }
+
+}
+
+
+@media (max-width: 550px){
+
 .textcontainer{
     margin-bottom: -7rem;
     margin-top: -4rem;
+}
+
 }

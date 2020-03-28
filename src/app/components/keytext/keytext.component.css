@@ -9,7 +9,7 @@ p{
     font-weight: bold;
 
     overflow: hidden;
-    white-space: nowrap;
+    white-space: wrap;
     border-right: solid black 4px;
 }
 

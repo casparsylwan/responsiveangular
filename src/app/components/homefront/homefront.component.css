@@ -61,7 +61,15 @@ button:active{
 @media (max-width: 900px){
 
     #mediumbottom{
-        display: initial;
+        display: initial;        
+    }
+
+    .insparaion{
+        top:80%;      
+    }
+    
+    .order{
+        top: 90%;
     }
 
 
@@ -77,6 +85,14 @@ button:active{
 
     #smallbottom{
         display: initial;
+    }
+
+    .insparaion{
+        top:70%;      
+    }
+    
+    .order{
+        top: 80%;
     }
 
 }

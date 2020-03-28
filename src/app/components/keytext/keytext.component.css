@@ -21,7 +21,7 @@ p{
 
     animation: type 6s steps(22);
     overflow: hidden;
-    white-space: nowrap;
+    white-space: wrap;
     border-right: solid black 4px;
 
 }

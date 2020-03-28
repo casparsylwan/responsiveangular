@@ -30,7 +30,7 @@ button:active{
     background-color: #ffffff;
     border: #fff 2px solid;
     border-radius: 30px;
-    width: 40%;
+    width: 10rem;
 
     font-size: 1.5rem;
     padding: 0.25rem;
@@ -41,17 +41,26 @@ button:active{
 
 }
 
+.btn{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*
 .insparaion{
     
     position: absolute;
     top:70%;
     left:30%;
 }
+*/
 
 .order{
-    position: absolute;
-    top: 80%;
-    left: 30%;
+ 
+    margin-left: 0.5rem;
 }
 
 

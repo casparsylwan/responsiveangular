@@ -76,6 +76,7 @@ button:active{
 .order, .insparaion{
  
     margin: 0.5rem;
+    margin-top: -2rem;
     padding: auto;
     z-index: 1;
 }

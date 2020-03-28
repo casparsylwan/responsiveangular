@@ -2,7 +2,7 @@
 p{
     font-size: 2rem;
     font-weight: bold;
-    padding-left: 1rem;
+    padding-left: 2rem;
     overflow: hidden;
     white-space: wrap;
     
@@ -10,5 +10,5 @@ p{
 
 .textcontainer{
     margin-bottom: -7rem;
-    margin-top: -3rem;
+    margin-top: -4rem;
 }

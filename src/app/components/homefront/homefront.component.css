@@ -7,6 +7,54 @@
     display: none;
 }
 
+/*---Buttons---*/
+
+button:focus{
+    outline: none;
+    
+}
+
+button{
+
+  transition: transform ease-in 100ms;  
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+
+.insparaion, .order{
+    
+
+    background-color: #ffffff;
+    border: #fff 2px solid;
+    border-radius: 30px;
+    width: 40%;
+
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    font-family: Helvetica;
+    font-weight: bold;
+
+    box-shadow: 10px 10px 10px -10px rgba(0,0,0,.5);
+
+}
+
+.insparaion{
+    
+    position: absolute;
+    top:70%;
+    left:30%;
+}
+
+.order{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+
 
 
 

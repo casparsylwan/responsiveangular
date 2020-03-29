@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TopnavComponent } from '../topnav/topnav.component';
 
 @Component({
   selector: 'app-homefront',

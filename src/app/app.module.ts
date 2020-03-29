@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { TopnavComponent } from './components/topnav/topnav.component';
 import { HomefrontComponent } from './components/homefront/homefront.component';
 import { KeytextComponent } from './components/keytext/keytext.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopnavComponent,
     HomefrontComponent,
-    KeytextComponent
+    KeytextComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

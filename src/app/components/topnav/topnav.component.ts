@@ -39,19 +39,22 @@ export class TopnavComponent implements OnInit {
     if(!this.menuBool){
       this.fader = "slideInLeft animated";
       this.menuBool = !(this.menuBool);
+      window.addEventListener('scroll', this.lockScroll, false);
       console.log(this.fader);
       
     }else{
-      this.fader = "slideOutLeft animated";    
+      this.fader = "slideOutLeft animated"; 
+      window.removeEventListener('scroll', this.lockScroll , false);   
       setTimeout(() => {
         this.menuBool = !(this.menuBool)
       }, 1000);
-      
-      
+           
     }
-    
-    
-    
+      
+  }
+
+  public lockScroll(){
+     window.scrollTo(0, 0);
   }
 
 }
